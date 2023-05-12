@@ -4,7 +4,7 @@ import json
 # Replace YOUR_API_KEY with your OpenAI API key
 headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer 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',
+    'Authorization': 'Bearer ???',
 }
 
 # Define the prompt for DALL-E
@@ -24,6 +24,6 @@ def generate_image(prompt):
     response_data = json.loads(response.content.decode())
     return response_data['data'][0]['url']
 
-# Call DALL-E and print the image URL
-image_url = generate_image(prompt)
-print(image_url)
+# # Call DALL-E and print the image URL
+# image_url = generate_image(prompt)
+# print(image_url)
