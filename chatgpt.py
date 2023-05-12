@@ -2,7 +2,7 @@ import openai
 import time
 
 # Authenticate with the OpenAI API
-openai.api_key = "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"
+# openai.api_key = None
 
 # Define the prompt for ChatGPT
 prompt = "Can you number the steps of heart working?"
@@ -23,11 +23,12 @@ def generate_response(prompt):
 
 # Call ChatGPT and print the response
 # while True:
-# user_input = input("You: ")
-# prompt += "\nUser: " + user_input
-response = generate_response(prompt)
-print("ChatGPT:", response)
-# time.sleep(1)
+#     user_input = input("You: ")
+#     prompt += "\nUser: " + user_input
+#     response = generate_response(prompt)
+#     print("ChatGPT:", response)
+#     time.sleep(1)
+
 
 
 #### Sample response from ChatGBT
